@@ -12,5 +12,7 @@
 tab <- function(df, col) {
         ct <- crosstab(df,col,col)
         tab <- unlist(lapply(ct[-1], sum))
-        return(tab)
+        tab.sorted <- tab[sort(names(tab))]
+        return(tab.sorted)
 }
+
