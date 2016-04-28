@@ -4,12 +4,12 @@
 #' of a single column from a SparkR DataFrame.
 #' @param df The name of the DataFrame.
 #' @param col The name of the column, character string.
-#' @keywords data-exploration, table, frequency, visualisation
+#' @keywords data-exploration, table, frequency, visualisation, sparkR
 #' @export
 #' @examples
-#' hist.sprk(iris, "Sepal_Length")
+#' hist.sR(iris, "Sepal_Length")
 
-hist.sprk <- function(df, col) {
+hist.sR <- function(df, col) {
   tab.sorted <- tab(df, col)
   graph <- hist(tab.sorted,
                 xlab = col,
