@@ -1,7 +1,7 @@
 #' A Histogram Function
 #'
 #' This function generates a frequency histogram
-#' of single columns from a SparkR DataFrame.
+#' of a single column from a SparkR DataFrame.
 #' @param df The name of the DataFrame.
 #' @param col The name of the column, character string.
 #' @keywords data-exploration, table, frequency, visualisation
