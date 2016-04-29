@@ -1,6 +1,6 @@
 #' A Tabulate Function
 #'
-#' This function allows you attain frequency table
+#' This function allows you to attain a frequency table
 #' of a single or two columns from a SparkR DataFrame.
 #' The output is meant to replicate that of base::table().
 #' @param df The name of the DataFrame.
