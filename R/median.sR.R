@@ -1,6 +1,6 @@
 #' A Median Function
 #'
-#' This function computes the sample median of a
+#' This function computes the sample median
 #' of a single column from a SparkR DataFrame.
 #' @param df The name of the DataFrame.
 #' @param col The name of the column, character string.
