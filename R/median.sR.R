@@ -13,7 +13,7 @@ median.sR <- function(df, col) {
 
   tab.sorted <- table.sR(df, col)
   index <- min(which(cumsum(tab.sorted) >= sum(tab.sorted)/2))
-  med <- as.numeric(names(t)[index])
+  med <- as.numeric(names(tab.sorted)[index])
   return(med)
 
 }
