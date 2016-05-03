@@ -10,7 +10,7 @@
 #' hist.sR(iris, "Sepal_Length")
 
 hist.sR <- function(df, col) {
-  tab.sorted <- tab(df, col)
+  tab.sorted <- table.sR(df, col)
   graph <- hist(tab.sorted,
                 xlab = col,
                 main = paste("Histogram of" , col))
